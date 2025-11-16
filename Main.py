@@ -1,13 +1,14 @@
 import pandas as pd
 import numpy as np
 import os
+
 #general DS variables  
 seed = 314 #seed for random generation 
 n_samples = 100 #the number of rows
 hours = 1000 #machine run time 
 np.random.seed(seed)
 
-#independent var baselines 
+#independent var baselines - unitless 
 base_temperature = 50
 base_vibration = 5
 base_pressure = .1
