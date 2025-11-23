@@ -1,0 +1,20 @@
+
+MODEL PERFORMANCE SUMMARY
+============================================================
+
+Test Set Metrics:
+  RMSE:  12.6068
+  MAE:   8.4721
+
+Model Configuration:
+  Features: 8
+  Best Iteration: 390
+  Optimization Trials: 100
+
+Error Statistics:
+  Mean Error: -7.1554
+  Std Error:  10.3841
+  Min Error:  -45.7887
+  Max Error:  26.5804
+
+============================================================

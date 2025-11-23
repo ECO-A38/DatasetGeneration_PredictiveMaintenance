@@ -1,0 +1,25 @@
+{
+  "target_col": "time_to_failure",
+  "feature_cols": [
+    "runtime",
+    "temperature",
+    "vibration",
+    "pressure",
+    "load",
+    "machine_id_enc",
+    "shift_enc",
+    "maintenance_enc"
+  ],
+  "categorical_cols": [
+    "machine_id",
+    "shift",
+    "maintenance"
+  ],
+  "numerical_cols": [
+    "runtime",
+    "temperature",
+    "vibration",
+    "pressure",
+    "load"
+  ]
+}

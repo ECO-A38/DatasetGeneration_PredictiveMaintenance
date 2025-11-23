@@ -1,0 +1,10 @@
+Feature,Type,Description,Range
+machine_id,categorical,Machine identifier (M001-M005),M001-M005
+shift,categorical,Work shift (day/night),"day, night"
+runtime,numerical,Hours of operation since start,0-1000
+temperature,numerical,Operating temperature (degrees C),41.6-70.9
+vibration,numerical,Vibration level (mm/s),4.9-36.5
+pressure,numerical,System pressure (bar),0.01-12.53
+load,numerical,Operating load (percent),55.5-85.5
+maintenance,binary,"Maintenance performed (0=no, 1=yes)","0, 1"
+time_to_failure,numerical (target),Predicted hours until failure,0-1117.6

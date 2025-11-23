@@ -1,0 +1,29 @@
+{
+  "best_params": {
+    "num_leaves": 26,
+    "learning_rate": 0.018675342336631238,
+    "feature_fraction": 0.6667800121561441,
+    "bagging_fraction": 0.882971055931548,
+    "bagging_freq": 3,
+    "min_child_samples": 7,
+    "max_depth": 8,
+    "lambda_l1": 2.7874875271231366e-05,
+    "lambda_l2": 5.994475509066484e-07,
+    "min_gain_to_split": 13.770847368116671,
+    "max_bin": 298
+  },
+  "best_iteration": 390,
+  "n_features": 8,
+  "feature_names": [
+    "runtime",
+    "temperature",
+    "vibration",
+    "pressure",
+    "load",
+    "machine_id_enc",
+    "shift_enc",
+    "maintenance_enc"
+  ],
+  "optimization_trials": 100,
+  "best_validation_rmse": 10.182982378939744
+}

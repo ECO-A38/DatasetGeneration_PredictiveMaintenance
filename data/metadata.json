@@ -1,0 +1,39 @@
+{
+  "generation_date": "2025-11-22T16:42:51.456780",
+  "seed": 314,
+  "n_samples": 5000,
+  "n_machines": 50,
+  "readings_per_machine": 100,
+  "max_hours": 1000,
+  "machine_types": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005"
+  ],
+  "machine_degradation_rates": {
+    "M001": 1.0,
+    "M002": 1.2,
+    "M003": 0.9,
+    "M004": 1.1,
+    "M005": 0.95
+  },
+  "base_values": {
+    "temperature": 50,
+    "vibration": 5,
+    "pressure": 0.1,
+    "load": 70
+  },
+  "train_machines": [
+    "M003",
+    "M004",
+    "M001"
+  ],
+  "val_machines": [
+    "M005"
+  ],
+  "test_machines": [
+    "M002"
+  ]
+}
