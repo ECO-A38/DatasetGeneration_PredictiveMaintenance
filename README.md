@@ -1,2 +1,2 @@
 # DatasetGeneration_PredictiveMaintenance
-Dataset generation for BDAA ML model
+BDAA ML model
