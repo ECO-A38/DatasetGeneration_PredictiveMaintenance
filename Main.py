@@ -106,6 +106,7 @@ def main():
     print(f"  ✓ test_predictions.csv")
     print(f"  ✓ encoder_*.pkl (for each categorical column)")
     print("="*70 + "\n")
+    print("main -- finished")
 
 
 if __name__ == "__main__":
